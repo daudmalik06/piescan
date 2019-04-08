@@ -97,7 +97,7 @@ def tcp_scan((target, port)):
            ports_ident["filtered"].append(port)
  	            
 	else:
-		#print port
+		test_var=1
     except socket.timeout:
 	ports_ident["filtered"].append(port)
         
